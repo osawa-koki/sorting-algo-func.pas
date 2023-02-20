@@ -1,18 +1,18 @@
-unit Display;
+unit DisplayUnit;
 
 interface
 
 type
   IntegerArray = array of Integer;
 
-procedure Show(title: string; arr: IntegerArray);
+procedure Display(title: string; arr: IntegerArray);
 
 implementation
 
 uses
   SysUtils;
 
-procedure Show(title: string; arr: IntegerArray);
+procedure Display(title: string; arr: IntegerArray);
 var
   i: Integer;
 begin

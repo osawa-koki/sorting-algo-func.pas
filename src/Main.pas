@@ -1,7 +1,7 @@
 program Main;
 
 uses
-  Display;
+  DisplayUnit;
 
 const
   ARRAY_SIZE = 10;
@@ -20,7 +20,7 @@ begin
   for i := 0 to ARRAY_SIZE - 1 do
     ary[i] := i;
 
-  Show('Original', ary);
+  Display('Original', ary);
 
   Halt(0);
 

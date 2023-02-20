@@ -1,9 +1,6 @@
 # コンパイルするファイル
 SOURCE_FILES = \
-    ./src/Display.pas \
-    ./src/Output.pas \
-    ./src/Swap.pas \
-    ./src/ToNoSQL.pas \
+    ./src/DisplayUnit.pas \
     ./src/Main.pas
 
 # 出力先のバイナリファイル
