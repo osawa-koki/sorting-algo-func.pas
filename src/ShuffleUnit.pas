@@ -22,7 +22,6 @@ procedure Shuffle(var arr: IntegerArray);
 var
   i, j, n: Integer;
 begin
-  Randomize;
   n := Length(arr);
   for i := n-1 downto 1 do
   begin
