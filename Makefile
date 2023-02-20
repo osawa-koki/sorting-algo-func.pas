@@ -1,6 +1,12 @@
 # コンパイルするファイル
 SOURCE_FILES = \
     ./src/DisplayUnit.pas \
+    ./src/ShuffleUnit.pas \
+    ./src/BubbleSort.pas \
+    ./src/SelectionSort.pas \
+    ./src/InsertionSort.pas \
+    ./src/MergeSort.pas \
+    ./src/QuickSort.pas \
     ./src/Main.pas
 
 # 出力先のバイナリファイル
