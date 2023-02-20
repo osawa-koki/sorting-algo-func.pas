@@ -5,7 +5,8 @@ uses
   ShuffleUnit,
   BubbleSort,
   SelectionSort,
-  InsertionSort;
+  InsertionSort,
+  MergeSort;
 
 const
   ARRAY_SIZE = 10;
@@ -43,6 +44,12 @@ begin
 
   insertion_sort(ary);
   Display('Insertion Sort', ary);
+
+  Shuffle(ary);
+  Display('Shuffled', ary);
+
+  merge_sort(ary);
+  Display('Merge Sort', ary);
 
   Halt(0);
 
