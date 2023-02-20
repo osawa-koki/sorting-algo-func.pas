@@ -4,7 +4,8 @@ uses
   DisplayUnit,
   ShuffleUnit,
   BubbleSort,
-  SelectionSort;
+  SelectionSort,
+  InsertionSort;
 
 const
   ARRAY_SIZE = 10;
@@ -36,6 +37,12 @@ begin
 
   selection_sort(ary);
   Display('Selection Sort', ary);
+
+  Shuffle(ary);
+  Display('Shuffled', ary);
+
+  insertion_sort(ary);
+  Display('Insertion Sort', ary);
 
   Halt(0);
 
