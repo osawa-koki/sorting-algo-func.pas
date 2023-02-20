@@ -8,7 +8,8 @@ uses
   InsertionSort,
   MergeSort,
   QuickSort,
-  ShellSort;
+  ShellSort,
+  HeapSort;
 
 const
   ARRAY_SIZE = 10;
@@ -64,6 +65,12 @@ begin
 
   shell_sort(ary);
   Display('Shell Sort', ary);
+
+  Shuffle(ary);
+  Display('Shuffled', ary);
+
+  heap_sort(ary);
+  Display('Heap Sort', ary);
 
   Halt(0);
 
