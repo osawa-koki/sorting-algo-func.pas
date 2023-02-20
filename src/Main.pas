@@ -1,7 +1,7 @@
 program Main;
 
 uses
-  DisplayUnit, ShuffleUnit;
+  DisplayUnit, ShuffleUnit, BubbleSort;
 
 const
   ARRAY_SIZE = 10;
@@ -24,6 +24,9 @@ begin
 
   Shuffle(ary);
   Display('Shuffled', ary);
+
+  bubble_sort(ary);
+  Display('Bubble Sort', ary);
 
   Halt(0);
 
