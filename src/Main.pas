@@ -1,7 +1,7 @@
 program Main;
 
 uses
-  DisplayUnit;
+  DisplayUnit, ShuffleUnit;
 
 const
   ARRAY_SIZE = 10;
@@ -21,6 +21,9 @@ begin
     ary[i] := i;
 
   Display('Original', ary);
+
+  Shuffle(ary);
+  Display('Shuffled', ary);
 
   Halt(0);
 
