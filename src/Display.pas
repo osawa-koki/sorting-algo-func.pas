@@ -9,14 +9,17 @@ procedure Show(title: string; arr: IntegerArray);
 
 implementation
 
+uses
+  SysUtils;
+
 procedure Show(title: string; arr: IntegerArray);
 var
   i: Integer;
 begin
-  Write(title, ':');
+  Write(Format('%-20s: ', [title]));
   for i := 0 to Length(arr)-1 do
   begin
-    Write(arr[i], ' ');
+    Write(Format('%2d', [arr[i]]));
   end;
   WriteLn;
 end;
