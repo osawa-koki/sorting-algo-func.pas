@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "davidanson.vscode-markdownlint",
+    "ms-vscode.makefile-tools",
+    "github.copilot",
+    "mhutchie.git-graph",
+    "editorconfig.editorconfig",
+    "alefragnani.pascal",
+    "alefragnani.pascal-formatter"
+  ]
+}

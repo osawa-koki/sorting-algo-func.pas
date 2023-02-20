@@ -1,0 +1,8 @@
+.devcontainer/
+.vscode/
+bin/*
+!.gitkeep
+.editorconfig
+.gitignore
+LICENSE
+README.md
