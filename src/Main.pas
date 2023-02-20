@@ -6,7 +6,8 @@ uses
   BubbleSort,
   SelectionSort,
   InsertionSort,
-  MergeSort;
+  MergeSort,
+  QuickSort;
 
 const
   ARRAY_SIZE = 10;
@@ -50,6 +51,12 @@ begin
 
   merge_sort(ary);
   Display('Merge Sort', ary);
+
+  Shuffle(ary);
+  Display('Shuffled', ary);
+
+  quick_sort(ary);
+  Display('Quick Sort', ary);
 
   Halt(0);
 
