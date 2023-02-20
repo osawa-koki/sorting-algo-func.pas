@@ -1,6 +1,6 @@
-# HelloWorld.pas
+# sorting-algo-func.pas
 
-🪳🪳🪳 Pascalで整列アルゴリズムを実装してみた。  
+🐹🐹🐹 Pascalで整列アルゴリズムを実装してみた。  
 
 ## 環境構築
 
