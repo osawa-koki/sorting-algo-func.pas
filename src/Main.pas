@@ -7,7 +7,8 @@ uses
   SelectionSort,
   InsertionSort,
   MergeSort,
-  QuickSort;
+  QuickSort,
+  ShellSort;
 
 const
   ARRAY_SIZE = 10;
@@ -57,6 +58,12 @@ begin
 
   quick_sort(ary);
   Display('Quick Sort', ary);
+
+  Shuffle(ary);
+  Display('Shuffled', ary);
+
+  shell_sort(ary);
+  Display('Shell Sort', ary);
 
   Halt(0);
 
